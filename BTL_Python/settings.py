@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SESSION_ENGINE = 'django.contrib.sessions.backends.file' 
+SESSION_FILE_PATH = 'sessions' 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True 
+SESSION_COOKIE_AGE = 3600
 
 # Application definition
 
