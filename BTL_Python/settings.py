@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+
 SESSION_ENGINE = 'django.contrib.sessions.backends.file' 
 SESSION_FILE_PATH = 'sessions' 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True 
@@ -113,11 +114,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Ho_Chi_Minh' 
+USE_TZ = True 
 
-USE_I18N = True
-
-USE_TZ = True
+# USE_I18N = True
 
 
 # Static files (CSS, JavaScript, Images)
